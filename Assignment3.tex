@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage[paper=letterpaper,margin=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{newtxtext, newtxmath}
+\usepackage{enumitem}
+\usepackage{titling}
+\usepackage[colorlinks=true]{hyperref}
+
+\setlength{\droptitle}{-6em}
+
+% Enter the specific assignment number and topic of that assignment below, and replace "Your Name" with your actual name.
+\title{Assignment \#3: Supervised Learning}
+\author{INFO 629 - Drexel University}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\textbf{Instructions}: 
+This exercise will mimic what we have seen in the examples during our lectures on supervised learning. 
+I have provided example code on working with several classes of these models using the `sklearn' package.
+In addition to providing the models, the package provides the necessary code used for data-preprocessing (using the pipelines as shown in the examples) as well as the evaluation metrics.
+
+In this exercise, we will work with an expanded dataset for the `will you wait' problem.
+Your task is to run a variety of models and compare their performance metrics.
+Specifically, I encourage you to experiment with \textbf{alternate data pre-processing} pipelines.
+
+Build your models using the provided training dataset and evaluate using the provided validation set.
+When you are happy with your results, please provide the following files with your submission:
+
+\begin{itemize}
+    \item A document detailing your development process. What variable transformations and models did you try? What did you find worked well or failer miserably? Also provide your model's performance metrics on the validation set.
+    \item A saved version of your model pipeline that I can load and run on the (unseen) test set. Please adhere to the sklearn standard models and pipelines to make sure I'm able to run your code.
+\end{itemize}
+
+All individuals will be required to submit a write-up of their approach in a PDF formatted
+\\
+`\{first\_name\}\_\{last\_name\}\_HW3\_Solutions.pdf',  along with a zip file of code used in the format 
+\\
+`\{first\_name\}\_\{last\_name\}\_HW3\_Code.zip'.
+
+\end{document}
